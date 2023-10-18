@@ -32,21 +32,21 @@ export default hopeTheme({
   displayFooter: true,
   
 
-  blog: {
-    description: "一个前端开发者",
-    intro: "/intro.html",
-    medias: {
-      GitHub: "https://github.com/WillebrordSnell",
-      Gitee: "https://gitee.com/a_wow_man",
-      Instagram: "https://example.com",
-      douban: "https://example.com",
-      Steam: "https://example.com",
-    },
-  },
+  // blog: {
+  //   description: "一个前端开发者",
+  //   intro: "/intro.html",
+  //   medias: {
+  //     GitHub: "https://github.com/WillebrordSnell",
+  //     Gitee: "https://gitee.com/a_wow_man",
+  //     Instagram: "https://example.com",
+  //     douban: "https://example.com",
+  //     Steam: "https://example.com",
+  //   },
+  // },
 
   encrypt: {
     config: {
-      "/train/dan/dan.html": ["1234"],
+      "/train/": ["444"],
     },
   },
 

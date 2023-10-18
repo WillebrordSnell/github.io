@@ -7,6 +7,18 @@ heroText: 日拱一卒 功不唐捐
 heroFullScreen: true
 
 
+
+---
+
+
+
+<!-- 
+要使用主页布局，应该在页面前端设置 `layout: BlogHome` 和 `home: true`。
+
+相关配置文档请见 [博客主页](https://theme-hope.vuejs.press/zh/guide/blog/home/)。
+ -->
+
+<!-- 
 projects:
   - icon: project
     name: 项目名称
@@ -37,14 +49,4 @@ projects:
     name: 自定义项目
     desc: 自定义详细介绍
     link: https://你的自定义链接
-
----
-
-
-
-<!-- 
-要使用主页布局，应该在页面前端设置 `layout: BlogHome` 和 `home: true`。
-
-相关配置文档请见 [博客主页](https://theme-hope.vuejs.press/zh/guide/blog/home/)。
  -->
-
