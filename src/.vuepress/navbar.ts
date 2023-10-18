@@ -35,23 +35,24 @@ export default navbar([
     ],
   },
 
-  {
-    text: "金樽",
-    prefix: "/life/",
-    children: [
-      {
-        text: "游戏",
 
-        prefix: "game/",
-        children: [
-          { text: "死亡搁浅", link: "DeathStranding" },
-          { text: "血缘诅咒", link: "Bloodborne" },
-        ],
-      },
+  // {
+  //   text: "金樽",
+  //   prefix: "/life/",
+  //   children: [
+  //     {
+  //       text: "游戏",
+
+  //       prefix: "game/",
+  //       children: [
+  //         { text: "死亡搁浅", link: "DeathStranding" },
+  //         { text: "血缘诅咒", link: "Bloodborne" },
+  //       ],
+  //     },
 
 
-    ],
-  },
+  //   ],
+  // },
 
 
   /* {
