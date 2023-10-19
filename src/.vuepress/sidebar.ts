@@ -24,4 +24,9 @@ export default sidebar({
     "trick/trick" ,
   ],
 
+  "/Tools/Git/": "structure",
+  "/Tools/Git/*": "structure",
+  "/Tools/MarkDown/": "structure",
+  "/Tools/Resource/": "structure",
+
 });

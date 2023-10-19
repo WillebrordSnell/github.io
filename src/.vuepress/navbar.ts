@@ -3,9 +3,32 @@ import { navbar } from "vuepress-theme-hope";
 export default navbar([
 
   // 
+
   { 
-    text: "码头",
+    text: '🔧 工具',
+    prefix: "/Tools/",
+
+    children: [
+      {
+        text: '文档',
+        children: [
+          {text: 'Markdown', link: 'MarkDown'},
+          {text: '资源整合', link: 'Resource'},
+        ]
+      },
+      {
+        text: '工具',
+        children: [
+          { text: "Git",  link: "Git" },
+        ]
+      }
+    ]
+  },
+
+  { 
+    text: "  📑 码头",
     prefix: "/keyan/",
+
     children: [
         { text: "视频理解", link: "videoUnderstanding/_videoUnderstanding" },
         { text: "视频表征", link: "videoRepresentation/_videoRepresentation" },
@@ -16,8 +39,9 @@ export default navbar([
     ]
   },
   {
-    text: "炉",
+    text: "  🧫 炉",
     prefix: "/train/",
+
     children: [
       { text: "单机多卡DDP", link: "DDP/_DDP" },
       { text: "AVSD", link: "AVSD/_AVSD" },
@@ -26,8 +50,9 @@ export default navbar([
   },
 
   {
-    text: "道心",
+    text: "  📖 道心",
     prefix: "/book/",
+
     children: [
       { text: "2023年9月",  link: "202309" },
       { text: "2023年10月", link: "202310" },

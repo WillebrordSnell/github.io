@@ -5,7 +5,7 @@ title: 主页
 layout: BlogHome
 heroText: 日拱一卒 功不唐捐
 heroFullScreen: true
-
+bgImage: "/assets/images/bgImage.jpg"
 
 
 ---
