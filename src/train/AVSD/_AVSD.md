@@ -13,6 +13,7 @@ tag:
 
 batch size： 32 64(单卡会爆显存)：也就是说baseline上，一张3090最多把B设置成32
 
+模板：https://www.sciencedirect.com/journal/computer-vision-and-image-understanding/publish/guide-for-authors#20040
 
 ## 实验思路
 1. 可解释性
