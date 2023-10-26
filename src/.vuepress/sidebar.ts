@@ -5,6 +5,7 @@ export default sidebar({
 
     "videoUnderstanding/videoUnderstanding",
     "videoRepresentation/videoRepresentation",
+    "videoDialog/videoDialog",
     "contrastiveLearning/contrastiveLearning",
     "multiModal/multiModal",
 

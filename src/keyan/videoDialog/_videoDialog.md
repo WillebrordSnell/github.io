@@ -7,8 +7,8 @@ tag:
   - 视频对话
 
 ---
-# 视频对话方向综述性质的记录
-视频对话领域在近几年顶刊上的paper寥寥无几并且在大模型的冲击下许多工作本就是换皮，本无打算特地做综述性质的报告，但由于开题需要，故留记录
+# 视频对话方向大论文性质的记录
+视频对话领域在近几年顶刊上的paper寥寥无几并且在大模型的冲击下许多工作本就是换皮，本无打算特地做综述性质的报告，但由于开题和毕业论文需要，故留记录
 
 ## Information-Theoretic Text Hallucination Reduction for Video-grounded Dialogue
 > 论文地址：
@@ -37,3 +37,27 @@ tag:
 
 参考意义不大
 
+## Dynamic Graph Representation Learning for Video Dialog via Multi-Modal Shuffled Transformers
+>论文地址：
+
+本文是早期(2020)的paper，因此在那个连多模态融合都没有做好的年代其主要难点自然就是如何融合多模态信息了
+
+## Video-Grounded Dialogues with Pretrained Generation Language Models
+>论文地址：
+
+本文只是把GTP2放在AVSD数据集上做了fine tune，严重怀疑最后的预测其实根本就没用到输入的视频信息
+
+## Multi-Speaker Video Dialog with Frame-Level Temporal Localization
+>论文地址：
+
+本文提到在实际应用中，准确定位对应的视频子段始终是很困难的。其意思应该和我思路差不多，通过增加一个视频定位模块做模型的可解释性部分，并且也许能带来性能的提升。(艹 又被做了)
+
+## Multimodal Transformer Networks for End-to-End Video-Grounded Dialogue Systems
+>论文地址：
+
+本文也是AVSD领域的早期(2019)工作，其中提出的问题比较基础：(1) 由于跨多个视频帧的背景噪声、人类语音、动作流等信息多种多样，视频的特征空间比基于文本或基于图像的特征更大、更复杂； (2) 会话代理必须能够感知和理解来自不同模式的信息（来自对话历史和人类查询的文本、来自视频的视觉和音频特征），并在语义上形成对人类有意义的响应。
+
+# Video Dialog via Progressive Inference and Cross-Transformer
+>论文地址：
+
+transform战士，用transform结构代替RNN在AVSD的位置
