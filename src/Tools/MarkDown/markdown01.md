@@ -102,7 +102,15 @@ Orange
 
 ## 4. 卡片
 
-```card:json
+```card
+title: Mr.Hope
+desc: Where there is light, there is hope
+logo: https://mister-hope.com/logo.svg
+link: https://mister-hope.com
+color: rgba(253, 230, 138, 0.15)
+```
+
+```card
 {
   "title": "Mr.Hope",
   "desc": "Where there is light, there is hope",
@@ -110,17 +118,4 @@ Orange
   "link": "https://mister-hope.com",
   "color": "rgba(253, 230, 138, 0.15)"
 }
-```
-
-```java
-
-  ```card:json
-  {
-    "title": "Mr.Hope",
-    "desc": "Where there is light, there is hope",
-    "logo": "https://mister-hope.com/logo.svg",
-    "link": "https://mister-hope.com",
-    "color": "rgba(253, 230, 138, 0.15)"
-  }
-
 ```
