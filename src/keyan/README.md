@@ -8,10 +8,15 @@ category:
 
 ## 整点论文
 
-- [对比学习](markdown.md)
+- [视频理解](./videoUnderstanding/_videoUnderstanding.md)
 
-- [视频对话](page.md)
+- [视频理解2](./videoRepresentation/_videoRepresentation.md)
 
-- [炼丹](disable.md)
+- [视频对话](./videoDialog/_videoDialog.md)
 
-- [加密展示](encrypt.md)
+- [对比学习](./contrastiveLearning/_contrastiveLearning.md)
+
+- [多模态](./multiModal/_multiModal.md)
+
+
+
