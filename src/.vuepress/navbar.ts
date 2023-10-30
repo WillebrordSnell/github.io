@@ -57,6 +57,7 @@ export default navbar([
     children: [
       { text: "2023年9月",  link: "202309" },
       { text: "2023年10月", link: "202310" },
+      { text: "2023年11月", link: "202311" },
       { text: "毛泽东选集", link: "maoxuan" },
     ],
   },
