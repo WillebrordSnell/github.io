@@ -8,7 +8,7 @@ tag:
 
 ---
 # 视频对话方向大论文性质的记录
-视频对话领域在近几年顶刊上的paper寥寥无几并且在大模型的冲击下许多工作其本质就是换皮，本无打算特地做综述性质的报告，但由于开题和毕业论文需要，故留记录
+视频对话领域在近几年顶刊上的paper寥寥无几并且在大模型的冲击下许多工作的本质就是换皮，真正有实质意义的工作寥若星辰，本无打算特地做综述性质的报告，但由于开题和毕业论文需要，故留记录
 
 ## Information-Theoretic Text Hallucination Reduction for Video-grounded Dialogue
 > 论文地址：https://arxiv.org/abs/2212.05765
